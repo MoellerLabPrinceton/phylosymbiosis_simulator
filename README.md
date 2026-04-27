@@ -276,5 +276,4 @@ The PDF shows:
 
 - Reproducibility depends on the random seed  
 - Higher brownian-sigma increases divergence among communities  
-- Lower geom-p produces stronger dominance patterns  
-- Larger max-community-size reduces pruning effects  
+
