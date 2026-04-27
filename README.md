@@ -1,4 +1,4 @@
-# Microbiome Phylosymbiosis Simulation
+# Phylosymbiosis Simulation
 
 This repository contains two scripts:
 
