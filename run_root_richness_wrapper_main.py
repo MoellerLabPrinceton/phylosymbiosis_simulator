@@ -121,7 +121,6 @@ def make_summary_line_plots(summary_files, output_dir: Path) -> None:
 
             x = m["max_community_size"].to_numpy()
             y_pos = m["positive_count"].to_numpy()
-            y_null = m["null_count"].to_numpy()
 
             ax.plot(
                 x,
@@ -130,14 +129,6 @@ def make_summary_line_plots(summary_files, output_dir: Path) -> None:
                 linewidth=1.8,
                 color=color_map[method],
                 label=f"{label_map[method]} positive",
-            )
-            ax.plot(
-                x,
-                y_null,
-                linestyle="--",
-                linewidth=1.8,
-                color=color_map[method],
-                label=f"{label_map[method]} null",
             )
 
         ax.set_xlabel("Maximum community size")
